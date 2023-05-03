@@ -1,0 +1,62 @@
+<center>
+    <h1>Task 6: Percentage and grade</h1>
+    <hr>
+    <hr>
+        <script type="text/javascript">
+            var a = parseInt(prompt("Enter marks of Physics: "));
+            var b = parseInt(prompt("Enter marks of Chemistry: "));
+            var c = parseInt(prompt("Enter marks of Biology: "));
+            var d = parseInt(prompt("Enter marks of Mathematics: "));
+            var e = parseInt(prompt("Enter marks of Computer: "));
+
+            console.log("Physics marks: "+a);
+            console.log("Chemistry marks: "+b);
+            console.log("Biology marks: "+c);
+            console.log("Mathematics marks: "+d);
+            console.log("Computer marks: "+e);
+
+            document.write("<h2 style = 'color:SeaGreen'>Physics marks: "+a+" </h2>");
+            document.write("<h2 style = 'color:SeaGreen'>Chemistry marks: "+b+" </h2>");
+            document.write("<h2 style = 'color:SeaGreen'>Biology marks: "+c+" </h2>");
+            document.write("<h2 style = 'color:SeaGreen'>Mathematics marks: "+d+" </h2>");
+            document.write("<h2 style = 'color:SeaGreen'>Computer marks: "+e+" </h2>");
+
+            var sum = (a + b + c + d + e)/5;
+
+            console.log("Percentage" +sum);
+            document.write("<h2 style = 'color:DarkMagenta'>Percentage: "+sum+"% </h2>");
+
+            if(sum>=90){
+                console.log("Grade A");
+                document.write("<h2 style = 'color:green'>Grade A</h2>");
+                alert("Grade A");
+            }
+            else if(sum>=80){
+                console.log("Grade B");
+                document.write("<h2 style = 'color:orange'>Grade B</h2>");
+                alert("Grade B");
+            }
+            else if(sum>=70){
+                console.log("Grade C");
+                document.write("<h2 style = 'color:blue'>Grade C</h2>");
+                alert("Grade C");
+            }
+            else if(sum>=60){
+                console.log("Grade D");
+                document.write("<h2 style = 'color:DeepPink'>Grade D</h2>");
+                alert("Grade D");
+            }
+            else if(sum>=50){
+                console.log("Grade E");
+                document.write("<h2 style = 'color:Olive'>Grade E</h2>");
+                alert("Grade E");
+            }
+            else if(sum>=60){
+                console.log("Grade F");
+                document.write("<h2 style = 'color:red'>Grade F</h2>");
+                alert("Grade F");
+            }
+        </script>
+    </center>
+    <hr>
+    <hr>

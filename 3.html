@@ -1,0 +1,32 @@
+<center>
+    <h1>Task 3: Leap year or Non Leap year</h1>
+    <hr>
+    <hr>
+        <script type="text/javascript">
+            var year = parseInt(prompt("Enter a Year: "));
+            console.log(year);
+        
+            if(year % 400 == 0 ){
+                console.log("It is a leap year.");
+                document.write("<h2 style = 'color:purple'> Year "+year+" is a Leap year </h2>");
+                alert("It is a leap year");
+            }
+            else if(year % 100 == 0 ){
+                console.log("It is not a leap year.");
+                document.write("<h2 style = 'color:purple'> Year "+year+" is not a Leap year </h2>");
+                alert("It is not a leap year");
+            }
+            else if(year % 4 == 0 ){
+                console.log("It is a leap year.");
+                document.write("<h2 style = 'color:purple'> Year "+year+" is a Leap year </h2>");
+                alert("It is a leap year");
+            }
+            else{
+                console.log("It is not a leap year.");
+                document.write("<h2 style = 'color:purple'> Year "+year+" is not a Leap year </h2>");
+                alert("It is not a leap year");
+            }
+        </script>
+    </center>
+    <hr>
+    <hr>
